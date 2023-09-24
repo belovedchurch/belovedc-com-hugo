@@ -1,14 +1,14 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "/"
+baseURL = "https://www.belovedc.com/"
 # Title of your website (required).
-title = "Hugoplate"
+title = "사랑하는교회"
 # Your theme name
 theme = "hugoplate"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
+timeZone = "Asia/Seoul"
 # post pagination
-paginate = 2 # see https://gohugo.io/extras/pagination/
+paginate = 20 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
 # google analytics
@@ -18,7 +18,15 @@ disqusShortname = "themefisher-template" # we use disqus to show comments in blo
 # disable language
 disableLanguages = [
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
-hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+hasCJKLanguage = true #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+
+######################## Custom Configs ##########################
+languageCode = 'ko-kr'
+
+disableHugoGeneratorInject = true # https://gohugo.io/getting-started/configuration/#disablehugogeneratorinject
+
+defaultContentLanguage = 'ko' # https://gohugo.io/getting-started/configuration/#defaultcontentlanguage
+
 
 
 ########################## Permalinks ############################
