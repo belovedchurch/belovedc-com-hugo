@@ -1,0 +1,64 @@
+############# Korean navigation ##############
+
+# main menu
+[[main]]
+name = "홈"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "구성요소"
+url = "elements/"
+weight = 3
+
+[[main]]
+weight = 4
+name = "페이지"
+hasChildren = true
+
+[[main]]
+parent = "페이지"
+name = "블로그"
+url = "blog/"
+
+[[main]]
+parent = "페이지"
+name = "연락하다"
+url = "contact/"
+
+[[main]]
+parent = "페이지"
+name = "저자"
+url = "authors/"
+
+[[main]]
+parent = "페이지"
+name = "카테고리"
+url = "categories/"
+
+[[main]]
+parent = "페이지"
+name = "404 Page"
+url = "404/"
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "구성요소"
+url = "elements/"
+weight = 2
+
+[[footer]]
+name = "개인 정보 정책"
+url = "privacy-policy/"
+weight = 3
