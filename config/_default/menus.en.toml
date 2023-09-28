@@ -2,49 +2,112 @@
 
 # main menu
 [[main]]
-name = "Home"
-url = "/"
+name = "About"
+url = "about/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+parent = "About"
+name = "Introduction to church"
+url = "introduction-to-church/"
+weight = 10
+
+[[main]]
+parent = "About"
+name = "History"
+url = "history/"
+weight = 11
+
+[[main]]
+parent = "About"
+name = "Services"
+url = "services/"
+weight = 12
+
+[[main]]
+parent = "About"
+name = "Locations"
+url = "locations/"
+weight = 13
+
+[[main]]
+parent = "About"
+name = "Facilities"
+url = "facilities/"
+weight = 14
+
+[[main]]
+parent = "About"
+name = "Staffs"
+url = "staffs/"
+weight = 15
+
+[[main]]
+name = "Ministry"
+url = "ministry/"
+hasChildren = true
 weight = 2
 
 [[main]]
-name = "Elements"
-url = "elements/"
-weight = 3
+parent = "Ministry"
+name = "Services"
+url = "services/"
+weight = 20
 
 [[main]]
-weight = 4
-name = "Pages"
+parent = "Ministry"
+name = "Beloved gatherings"
+url = "beloved-gatherings/"
+weight = 21
+
+[[main]]
+parent = "Ministry"
+name = "Two witnesses evangelism group"
+url = "two-witnesses-evangelism-group/"
+weight = 22
+
+[[main]]
+parent = "Ministry"
+name = "One day healing conference"
+url = "one-day-healing-conference/"
+weight = 23
+
+[[main]]
+name = "News"
+url = "news/"
+weight = 3
 hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-url = "blog/"
+parent = "News"
+name = "Noticies"
+url = "news/notices/"
+weight = 30
 
 [[main]]
-parent = "Pages"
-name = "Contact"
-url = "contact/"
+parent = "News"
+name = "Scoop"
+url = "news/scoop/"
+weight = 31
 
 [[main]]
-parent = "Pages"
-name = "Authors"
-url = "authors/"
+name = "God is alive today!"
+url = "God-is-alive-today/"
+hasChildren = true
+weight = 4
 
 [[main]]
-parent = "Pages"
-name = "Categories"
-url = "categories/"
+parent = "God is alive today!"
+name = "African missons"
+url = "african-missions/"
+
 
 [[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
+parent = "God is alive today!"
+name = "Testimony"
+url = "testimony/"
+
+
 
 
 # footer menu
@@ -59,6 +122,31 @@ url = "elements/"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
+name = "Blog"
+url = "blog/"
 weight = 3
+
+[[footer]]
+name = "Contact"
+url = "contact/"
+weight = 4
+
+[[footer]]
+name = "Authors"
+url = "authors/"
+weight = 5
+
+[[footer]]
+name = "Categories"
+url = "categories/"
+weight = 6
+
+[[footer]]
+name = "404 Page"
+url = "404/"
+weight = 7
+
+[[footer]]
+name = "Privacy policy"
+url = "privacy-policy/"
+weight = 8
