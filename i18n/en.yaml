@@ -34,6 +34,58 @@
 - id: register
   translation: Register
 
+# - id: about
+#   translation: About
+# - id: introduction_to_church
+#   translation: Introduction to church
+# - id: history
+#   translation: History
+# - id: services
+#   translation: Services
+# - id: locations
+#   translation: Locations
+# - id: facilities
+#   translation: Facilities
+# - id: staffs
+#   translation: Staffs
+# - id: ministry
+#   translation: Ministry
+# - id: services
+#   translation: Services
+# - id: beloved_gatherings
+#   translation: Beloved gatherings
+# - id: two_witnesses_evangelism_group
+#   translation: Two witnesses evangelism group
+# - id: one_day_healing_conference
+#   translation: One day healing conference
+# - id: news
+#   translation: News
+# - id: noticies
+#   translation: Noticies
+# - id: scoop
+#   translation: Scoop
+# - id: god_is_alive_today
+#   translation: God is alive today!
+# - id: african_missons
+#   translation: African missons
+# - id: testimony
+#   translation: Testimony
+# - id: about
+#   translation: About
+# - id: elements
+#   translation: Elements
+# - id: blog
+#   translation: Blog
+# - id: contact
+#   translation: Contact
+# - id: authors
+#   translation: Authors
+# - id: categories
+#   translation: Categories
+# - id: page
+#   translation: Page
+# - id: privacy_policy
+#   translation: Privacy policy
 
 # Branches
 - id: namyangju
