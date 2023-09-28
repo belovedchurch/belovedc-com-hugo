@@ -50,20 +50,17 @@ jobs:
 
       - name: Setup Project
         run: npm run project-setup
-        working-directory: belovedc-com
 
       - name: Install npm dependencies
         run: npm install
-        working-directory: belovedc-com
 
       - name: Publish to GitHub Pages
         run: npm run build
-        working-directory: belovedc-com
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: belovedc-com/public
+          path: ./public
 
   # Deployment job
   deploy:
