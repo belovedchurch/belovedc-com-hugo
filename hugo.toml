@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://belovedchurch.github.io/"
+baseURL = "https://belovedchurch.github.io/belovedc-com-hugo/"
 # Title of your website (required).
 title = "사랑하는교회"
 # Your theme name
