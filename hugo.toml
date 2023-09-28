@@ -27,7 +27,10 @@ disableHugoGeneratorInject = true # https://gohugo.io/getting-started/configurat
 
 defaultContentLanguage = 'ko' # https://gohugo.io/getting-started/configuration/#defaultcontentlanguage
 
-
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  branch = 'branches'
 
 ########################## Permalinks ############################
 [permalinks.page]
