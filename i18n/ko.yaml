@@ -30,3 +30,6 @@
 
 - id: empty_search_results_placeholder
   translation: 검색할 내용을 입력하세요..
+
+- id: register
+  translation: 새신자 등록
