@@ -34,6 +34,16 @@
 - id: register
   translation: Register
 
+# 404 Page
+- id: page_not_found
+  translation: Page not found
+- id: page_not_found_description
+  translation: The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+- id: back_home
+  translation: Back to home
+
+
+
 # - id: about
 #   translation: About
 # - id: introduction_to_church
