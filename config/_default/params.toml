@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
+copyright = "© 2023. Beloved Church. all rights reserved."
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -38,8 +38,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [navigation_button]
 enable = true
-label = "get a quote"
-link = "contact"
+label = "새신자 등록하기"
+link = "https://docs.google.com/forms/d/e/1FAIpQLSf2oAFl-U85aesdDzqIckNJLxjGVLllnBkaAykDAjOtRmsoIg/viewform"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
