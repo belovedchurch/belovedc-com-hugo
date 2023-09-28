@@ -2,49 +2,112 @@
 
 # main menu
 [[main]]
-name = "홈"
-url = "/"
+name = "소개"
+url = "about/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+parent = "소개"
+name = "교회 안내"
+url = "introduction-to-church/"
+weight = 10
+
+[[main]]
+parent = "소개"
+name = "교회 역사"
+url = "history/"
+weight = 11
+
+[[main]]
+parent = "소개"
+name = "예배 안내"
+url = "services/"
+weight = 12
+
+[[main]]
+parent = "소개"
+name = "오시는 길"
+url = "locations/"
+weight = 13
+
+[[main]]
+parent = "소개"
+name = "시설 안내"
+url = "facilities/"
+weight = 14
+
+[[main]]
+parent = "소개"
+name = "섬기는 사람들"
+url = "staffs/"
+weight = 15
+
+[[main]]
+name = "사역"
+url = "ministry/"
+hasChildren = true
 weight = 2
 
 [[main]]
-name = "구성요소"
-url = "elements/"
-weight = 3
+parent = "사역"
+name = "예배"
+url = "services/"
+weight = 20
 
 [[main]]
-weight = 4
-name = "페이지"
+parent = "사역"
+name = "사랑하는 사람들 모임"
+url = "beloved-gatherings/"
+weight = 21
+
+[[main]]
+parent = "사역"
+name = "두 증인 전도단"
+url = "two-witnesses-evangelism-group/"
+weight = 22
+
+[[main]]
+parent = "사역"
+name = "일일 치유 순회"
+url = "one-day-healing-conference/"
+weight = 23
+
+[[main]]
+name = "교회 소식"
+url = "news/"
+weight = 3
 hasChildren = true
 
 [[main]]
-parent = "페이지"
-name = "블로그"
-url = "blog/"
+parent = "교회 소식"
+name = "공지"
+url = "news/notices/"
+weight = 30
 
 [[main]]
-parent = "페이지"
-name = "연락하다"
-url = "contact/"
+parent = "교회 소식"
+name = "특종"
+url = "news/scoop/"
+weight = 31
 
 [[main]]
-parent = "페이지"
-name = "저자"
-url = "authors/"
+name = "하나님은 오늘도 살아계십니다!"
+url = "God-is-alive-today/"
+hasChildren = true
+weight = 4
 
 [[main]]
-parent = "페이지"
-name = "카테고리"
-url = "categories/"
+parent = "하나님은 오늘도 살아계십니다!"
+name = "아프리카 선교"
+url = "african-missions/"
+
 
 [[main]]
-parent = "페이지"
-name = "404 Page"
-url = "404/"
+parent = "하나님은 오늘도 살아계십니다!"
+name = "치유 간증"
+url = "testimony/"
+
+
 
 
 # footer menu
@@ -59,6 +122,31 @@ url = "elements/"
 weight = 2
 
 [[footer]]
+name = "블로그"
+url = "blog/"
+weight = 3
+
+[[footer]]
+name = "연락하다"
+url = "contact/"
+weight = 4
+
+[[footer]]
+name = "저자"
+url = "authors/"
+weight = 5
+
+[[footer]]
+name = "카테고리"
+url = "categories/"
+weight = 6
+
+[[footer]]
+name = "404 Page"
+url = "404/"
+weight = 7
+
+[[footer]]
 name = "개인 정보 정책"
 url = "privacy-policy/"
-weight = 3
+weight = 8
