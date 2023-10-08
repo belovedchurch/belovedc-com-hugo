@@ -188,3 +188,20 @@
   translation: Congo
 - id: uganda
   translation: Uganda
+
+
+# tag
+- id: silicon
+  translation: silicon
+
+- id: technology
+  translation: technology
+
+- id: software
+  translation: software
+
+- id: nextjs
+  translation: nextjs
+
+- id: tailwind
+  translation: tailwind
