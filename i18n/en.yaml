@@ -210,8 +210,11 @@
 - id: tailwind
   translation: Tailwind
 
-- id: highest-attendance-record
+- id: highest_attendance_record
   translation: Highest Attendance Record
+
+- id: good_article
+  translation: Good Article
 
 
 # Categories

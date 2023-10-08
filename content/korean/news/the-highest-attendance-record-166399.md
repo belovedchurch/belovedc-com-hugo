@@ -6,7 +6,7 @@ description: "this is meta description"
 image: "/images/church/seoul.jpeg"
 categories: ["notices"]
 author: ""
-tags: ["highest-attendance-record"]
+tags: ["highest_attendance_record"]
 draft: false
 ---
 

@@ -156,8 +156,11 @@
 - id: tailwind
   translation: 테일윈드
 
-- id: highest-attendance-record
+- id: highest_attendance_record
   translation: 신기록 경신
+
+- id: good_article
+  translation: 좋은 글
 
 
 # 카테고리
