@@ -79,18 +79,6 @@ weight = 3
 hasChildren = true
 
 [[main]]
-parent = "News"
-name = "Noticies"
-url = "news/notices/"
-weight = 30
-
-[[main]]
-parent = "News"
-name = "Scoop"
-url = "news/scoop/"
-weight = 31
-
-[[main]]
 name = "God is alive today!"
 url = "God-is-alive-today/"
 hasChildren = true

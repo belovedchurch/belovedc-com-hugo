@@ -34,6 +34,10 @@
 - id: register
   translation: Register
 
+- id: news
+  translation: News
+
+
 # 404 Page
 - id: page_not_found
   translation: Page not found
@@ -206,6 +210,9 @@
 - id: tailwind
   translation: Tailwind
 
+- id: highest-attendance-record
+  translation: Highest Attendance Record
+
 
 # Categories
 - id: application
@@ -222,3 +229,9 @@
 
 - id: technology
   translation: Technology 
+
+- id: notices
+  translation: Notices
+
+- id: breaking-news
+  translation: Breaking News

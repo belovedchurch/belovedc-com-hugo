@@ -34,6 +34,10 @@
 - id: register
   translation: 새신자 등록
 
+- id: news
+  translation: 소식
+
+
 # 404 Page
 - id: page_not_found
   translation: 페이지를 찾을 수 없습니다
@@ -152,6 +156,9 @@
 - id: tailwind
   translation: 테일윈드
 
+- id: highest-attendance-record
+  translation: 신기록 경신
+
 
 # 카테고리
 
@@ -169,3 +176,10 @@
 
 - id: technology
   translation: 기술 
+
+- id: notices
+  translation: 공지
+
+- id: breaking-news
+  translation: 특종
+
