@@ -27,7 +27,7 @@
                 <a
                   href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
                   class="ms-1"
-                  >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
+                  >{{ . | lower | T }}{{ if ne $i (sub (len $categories) 1) }}
                     {{ ", " }}
                   {{ end }}
                 </a>
@@ -51,7 +51,7 @@
                     <a
                       class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark m-1 block rounded px-3 py-1 hover:text-white"
                       href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
-                      {{ . | lower | T | humanize }}
+                      {{ . | lower | T }}
                     </a>
                   </li>
                 {{ end }}

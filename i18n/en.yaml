@@ -192,16 +192,33 @@
 
 # tag
 - id: silicon
-  translation: silicon
+  translation: Silicon
 
 - id: technology
-  translation: technology
+  translation: Technology
 
 - id: software
-  translation: software
+  translation: Software
 
 - id: nextjs
-  translation: nextjs
+  translation: NextJS
 
 - id: tailwind
-  translation: tailwind
+  translation: Tailwind
+
+
+# Categories
+- id: application
+  translation: Application
+
+- id: architecture
+  translation: Architecture
+
+- id: data
+  translation: Data
+
+- id: software
+  translation: Software
+
+- id: technology
+  translation: Technology 

@@ -151,3 +151,21 @@
 
 - id: tailwind
   translation: 테일윈드
+
+
+# 카테고리
+
+- id: application
+  translation: 애플리케이션
+
+- id: architecture
+  translation: 아키텍처
+
+- id: data
+  translation: 데이터
+
+- id: software
+  translation: 소프트웨어
+
+- id: technology
+  translation: 기술 
