@@ -236,5 +236,5 @@
 - id: notices
   translation: Notices
 
-- id: breaking-news
+- id: breaking_news
   translation: Breaking News

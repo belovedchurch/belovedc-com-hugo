@@ -183,6 +183,6 @@
 - id: notices
   translation: 공지
 
-- id: breaking-news
+- id: breaking_news
   translation: 특종
 
