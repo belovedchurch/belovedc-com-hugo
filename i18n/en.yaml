@@ -188,3 +188,37 @@
   translation: Congo
 - id: uganda
   translation: Uganda
+
+
+# tag
+- id: silicon
+  translation: Silicon
+
+- id: technology
+  translation: Technology
+
+- id: software
+  translation: Software
+
+- id: nextjs
+  translation: NextJS
+
+- id: tailwind
+  translation: Tailwind
+
+
+# Categories
+- id: application
+  translation: Application
+
+- id: architecture
+  translation: Architecture
+
+- id: data
+  translation: Data
+
+- id: software
+  translation: Software
+
+- id: technology
+  translation: Technology 
