@@ -79,18 +79,6 @@ weight = 3
 hasChildren = true
 
 [[main]]
-parent = "교회 소식"
-name = "공지"
-url = "news/notices/"
-weight = 30
-
-[[main]]
-parent = "교회 소식"
-name = "특종"
-url = "news/scoop/"
-weight = 31
-
-[[main]]
 name = "하나님은 오늘도 살아계십니다!"
 url = "God-is-alive-today/"
 hasChildren = true
