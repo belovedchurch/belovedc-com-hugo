@@ -1,12 +1,12 @@
 ################ Korean language ##################
 [ko]
 languageName = "한국어"
-languageCode = "ko-kr"
-contentDir = "content/korean"
+languageCode = "ko"
+contentDir = "content/ko"
 weight = 1
 ################ English language ##################
 [en]
 languageName = "English"
-languageCode = "en-us"
-contentDir = "content/english"
+languageCode = "en"
+contentDir = "content/en"
 weight = 2
