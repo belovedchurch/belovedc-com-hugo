@@ -5,6 +5,7 @@ meta_title: ""
 description: "this is meta description"
 categories: ["notices"]
 author: ""
+image: "https://source.unsplash.com/1280x720/?nature"
 tags: ["good_article"]
 draft: false
 ---
