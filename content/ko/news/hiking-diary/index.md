@@ -12,6 +12,8 @@ draft: false
 
 올해 제가 환갑인데 사사모 여교역자들이 자기들보다 조금 덜 예쁜 꽃을 보내왔네요.
 
+<!--more-->
+
 <!-- {{< gallery dir="photos/1" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}} -->
 {{< slider dir="photos/1" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 
