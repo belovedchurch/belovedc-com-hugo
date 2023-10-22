@@ -165,6 +165,9 @@
 - id: hiking_diary
   translation: 산행 일기
 
+- id: member_story
+  translation: 성도님 이야기
+
 
 # 카테고리
 
