@@ -35,3 +35,17 @@
 
 <!-- google adsense -->
 {{ partialCached "adsense-script.html" . }}
+
+
+{{/* glide.js for homepage carousel */}}
+{{ if .IsHome }}
+{{ $glidejs := resources.Get "static/js/glide.min.js" | fingerprint }}
+<script src="{{- $glidejs.RelPermalink -}}" integrity="{{- $glidejs.Data.Integrity -}}"></script>
+<script>
+    const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+    const peekVal = (vw > 768) ? 35 : 0
+    window.addEventListener('load', function () {
+        new Glide('.glide', { autoplay: 5000, focusAt: "center", peek: peekVal, type: "carousel" }).mount();
+    });
+</script>
+{{ end }}

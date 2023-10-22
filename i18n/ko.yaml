@@ -141,48 +141,42 @@
   translation: 우간다
 
   # tag
-- id: silicon
-  translation: 실리콘
-
-- id: technology
-  translation: 기술
-
-- id: software
-  translation: 소프트웨어
-
-- id: nextjs
-  translation: 넥스트JS
-
-- id: tailwind
-  translation: 테일윈드
-
 - id: highest_attendance_record
   translation: 신기록 경신
 
 - id: good_article
   translation: 좋은 글
 
+- id: hiking_diary
+  translation: 산행 일기
+
+- id: member_story
+  translation: 성도님 이야기
+
+- id: holy_spirit
+  translation: 성령님
+
+- id: truth
+  translation: 진리
+
+- id: guidance
+  translation: 인도
+  
 
 # 카테고리
-
-- id: application
-  translation: 애플리케이션
-
-- id: architecture
-  translation: 아키텍처
-
-- id: data
-  translation: 데이터
-
-- id: software
-  translation: 소프트웨어
-
-- id: technology
-  translation: 기술 
 
 - id: notices
   translation: 공지
 
 - id: breaking_news
   translation: 특종
+
+- id: sunday_sermon
+  translation: 주일 설교
+
+
+# 설교자
+
+- id: byun_seung_woo
+  translation: 변승우
 
