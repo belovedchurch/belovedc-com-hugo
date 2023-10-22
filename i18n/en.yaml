@@ -1,107 +1,37 @@
+---
 - id: home
   translation: Home
-
 - id: read_more
   translation: Read More
-
 - id: send
   translation: Send
-
 - id: related_posts
   translation: Related Posts
-
 - id: categories
   translation: Categories
-
 - id: tags
   translation: Tags
-
 - id: toc
   translation: Table of Contents
-
 - id: share
   translation: Share
-
 - id: search_input_placeholder
   translation: Search Post ...
-
 - id: no_results_for
   translation: No results for
-
 - id: empty_search_results_placeholder
   translation: Type something to search..
-
 - id: register
   translation: Register
-
 - id: news
   translation: News
-
-
-# 404 Page
 - id: page_not_found
   translation: Page not found
 - id: page_not_found_description
-  translation: The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+  translation: The page you are looking for might have been removed, had its name
+    changed, or is temporarily unavailable.
 - id: back_home
   translation: Back to home
-
-
-
-# - id: about
-#   translation: About
-# - id: introduction_to_church
-#   translation: Introduction to church
-# - id: history
-#   translation: History
-# - id: services
-#   translation: Services
-# - id: locations
-#   translation: Locations
-# - id: facilities
-#   translation: Facilities
-# - id: staffs
-#   translation: Staffs
-# - id: ministry
-#   translation: Ministry
-# - id: services
-#   translation: Services
-# - id: beloved_gatherings
-#   translation: Beloved gatherings
-# - id: two_witnesses_evangelism_group
-#   translation: Two witnesses evangelism group
-# - id: one_day_healing_conference
-#   translation: One day healing conference
-# - id: news
-#   translation: News
-# - id: noticies
-#   translation: Noticies
-# - id: scoop
-#   translation: Scoop
-# - id: god_is_alive_today
-#   translation: God is alive today!
-# - id: african_missons
-#   translation: African missons
-# - id: testimony
-#   translation: Testimony
-# - id: about
-#   translation: About
-# - id: elements
-#   translation: Elements
-# - id: blog
-#   translation: Blog
-# - id: contact
-#   translation: Contact
-# - id: authors
-#   translation: Authors
-# - id: categories
-#   translation: Categories
-# - id: page
-#   translation: Page
-# - id: privacy_policy
-#   translation: Privacy policy
-
-# Branches
 - id: namyangju
   translation: Namyangju
 - id: bucheon
@@ -192,49 +122,25 @@
   translation: Congo
 - id: uganda
   translation: Uganda
-
-
-# tag
-- id: silicon
-  translation: Silicon
-
-- id: technology
-  translation: Technology
-
-- id: software
-  translation: Software
-
-- id: nextjs
-  translation: NextJS
-
-- id: tailwind
-  translation: Tailwind
-
 - id: highest_attendance_record
   translation: Highest Attendance Record
-
 - id: good_article
   translation: Good Article
-
-
-# Categories
-- id: application
-  translation: Application
-
-- id: architecture
-  translation: Architecture
-
-- id: data
-  translation: Data
-
-- id: software
-  translation: Software
-
-- id: technology
-  translation: Technology 
-
+- id: hiking_diary
+  translation: Hiking Diary
+- id: member_story
+  translation: Member Story
+- id: holy_spirit
+  translation: Holy Spirit
+- id: truth
+  translation: Truth
+- id: guidance
+  translation: Guidance
 - id: notices
   translation: Notices
-
 - id: breaking_news
   translation: Breaking News
+- id: sunday_sermon
+  translation: Sunday Sermon
+- id: byun_seung_woo
+  translation: Byun Seung Woo
