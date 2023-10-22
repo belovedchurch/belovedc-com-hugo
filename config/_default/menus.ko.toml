@@ -76,13 +76,17 @@ weight = 23
 name = "교회 소식"
 url = "news/"
 weight = 3
-hasChildren = true
 
 [[main]]
 name = "하나님은 오늘도 살아계십니다!"
 url = "God-is-alive-today/"
 hasChildren = true
 weight = 4
+
+[[main]]
+name = "인터넷 방송국"
+url = "sermons/"
+weight = 5
 
 [[main]]
 parent = "하나님은 오늘도 살아계십니다!"
