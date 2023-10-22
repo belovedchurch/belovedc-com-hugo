@@ -1,29 +1,31 @@
 {{ define "main" }}
 {{ with site.GetPage "homepage" }}
 
+<!-- Carousel -->
 <section class="section pt-14">
-  <div class="glide w-full rounded-md overflow-hidden max-w-5xl" style="height: 30rem;">
-    <div class="glide__track h-full" data-glide-el="track">
-      <div class="glide__slides h-full flex flex-row flex-nowrap place-content-center gap-x-1">
-        {{ range first 7 (site.RegularPages.ByPublishDate.Reverse) }}
-        <div class="glide__slide overflow-hidden">
-          {{/*  {{ partial "post-featured-card" . }}  */}}
-          {{ partial "image.html" (dict "Src" .Params.image "Context" .Page ) }}
+  <article class="flex flex-col justify-center items-center mx-1 sm:mx-4">
+    <div class="glide w-full rounded-md overflow-hidden max-w-5xl" style="height: 30rem;">
+      <div class="glide__track h-full" data-glide-el="track">
+        <div class="glide__slides h-full flex flex-row flex-nowrap place-content-center gap-x-1">
+          {{ range first 5 site.RegularPages.ByPublishDate.Reverse }}
+          <div class="glide__slide overflow-hidden">
+            {{ partial "components/post-featured-card" . }}
+          </div>
+          {{ end }}
         </div>
-        {{ end }}
+      </div>
+      <div data-glide-el="controls" class="glide__arrows absolute inset-y-1/2 text-white w-full px-1 md:px-4">
+        <button data-glide-dir="<" class="round-button w-8 h-8 float-left focus:outline-none hidden md:block"
+          aria-label="Previous">
+          <i data-feather="chevron-left" class="w-6 h-6 mx-1"></i>
+        </button>
+        <button data-glide-dir=">" class="round-button w-8 h-8 float-right focus:outline-none hidden md:block"
+          aria-label="Next">
+          <i data-feather="chevron-right" class="w-6 h-6 mx-1"></i>
+        </button>
       </div>
     </div>
-    <div data-glide-el="controls" class="glide__arrows absolute inset-y-1/2 text-white w-full px-1 md:px-4">
-      <button data-glide-dir="<" class="round-button w-8 h-8 float-left focus:outline-none hidden md:block"
-        aria-label="Previous">
-        <i data-feather="chevron-left" class="w-6 h-6 mx-1"></i>
-      </button>
-      <button data-glide-dir=">" class="round-button w-8 h-8 float-right focus:outline-none hidden md:block"
-        aria-label="Next">
-        <i data-feather="chevron-right" class="w-6 h-6 mx-1"></i>
-      </button>
-    </div>
-  </div>
+  </article>
 </section>
 
 <!-- Banner -->
