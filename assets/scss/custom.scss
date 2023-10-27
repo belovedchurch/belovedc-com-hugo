@@ -1,1 +1,53 @@
 // Add your own custom styles here
+.header
+{
+    border-bottom: 1px solid gray;
+    padding-top : 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-brand img
+{
+    width: 130px;
+    padding-left: 1rem;
+}
+
+#nav-menu
+{
+    max-width: 1280px;
+}
+
+#nav-menu li
+{
+    margin: 0;
+    margin-right: 3rem;
+}
+
+#nav-menu li .nav-link
+{
+    padding: 0;
+}
+
+select
+{
+    padding-right: 1.5rem;
+}
+
+//리스트 폭 사이즈 조정
+.lg\:col-9
+{
+    width: 80%;   
+}
+
+
+@media (min-width: 1280px)
+{
+    .navbar {
+        max-width: 100%;
+    }
+    #nav-menu
+    {
+        max-width: 1280px;
+    }
+}
+
