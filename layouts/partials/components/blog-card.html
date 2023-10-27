@@ -18,11 +18,11 @@
   <ul class="mb-4">
     <li class="mr-4 inline-block cs-tagbox">
       <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
-        <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+        <i class="fa-regular fa-circle-user"></i>{{ .Params.author }}
       </a>
     </li>
     <li class="mr-2 inline-block cs-tagbox">
-      <i class="fa-regular fa-folder mr-2"></i>
+      <i class="fa-regular fa-folder"></i>
       {{ $categories:= .Params.categories }}
       {{ range $i,$p:= $categories }}
       <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-1">{{ . | lower | T }}{{ if ne $i

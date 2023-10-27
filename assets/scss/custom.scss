@@ -49,10 +49,22 @@ select
     width: 20%;   
 }
 
+.row
+{
+    width: 100%;
+    margin: auto;
+}
+
 //게시글 라인 폭 조정
 .row > *
 {
- padding-right : 0;
+ padding: 0;
+}
+
+.cs-listRow
+{
+    width:100%;
+    margin: auto;
 }
 
 //블로그 카드형 디자인
@@ -61,6 +73,7 @@ select
     border: 1px solid #ececec;
     border-radius: 10px;
     padding:10px;
+    margin-right:20px;
 }
 
 //태그 달 경우 태그 모양 처리
@@ -88,7 +101,7 @@ select
 //카테고리및 태그 박스
 .cs-taglistDiv
 {
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 @media (min-width: 1280px)
