@@ -1,27 +1,27 @@
-<div class="bg-body dark:bg-darkmode-body">
+<div class="bg-body dark:bg-darkmode-body cs-blogCard">
   
   {{ $youtubeId:= .Params.youtube_id }}
   {{ if $youtubeId }}
   {{ $youtube_thumbnail:= (printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" .Params.youtube_id) }}
-  {{ partial "image" (dict "Src" $youtube_thumbnail "Alt" .Title "Size" "1280x720" "Context" .Page "Class" "mb-6 w-full rounded") }}
+  {{ partial "image" (dict "Src" $youtube_thumbnail "Alt" .Title "Size" "1280x720" "Context" .Page "Class" "mb-4 w-full rounded") }}
   {{ end }}
   
   {{ $image:= .Params.image }}
   {{ if $image }}
-  {{ partial "image" (dict "Src" $image "Alt" .Title "Size" "1280x720" "Context" .Page "Class" "mb-6 w-full rounded") }}
+  {{ partial "image" (dict "Src" $image "Alt" .Title "Size" "1280x720" "Context" .Page "Class" "mb-4 w-full rounded") }}
   {{ end }}
-  <h4 class="mb-3">
+  <h5 class="mb-3"> <!--글자 크기 조정-->
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
-  </h4>
+  </h5>
   <ul class="mb-4">
-    <li class="mr-4 inline-block">
+    <li class="mr-4 inline-block cs-tagbox">
       <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
         <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
       </a>
     </li>
-    <li class="mr-4 inline-block">
+    <li class="mr-2 inline-block cs-tagbox">
       <i class="fa-regular fa-folder mr-2"></i>
       {{ $categories:= .Params.categories }}
       {{ range $i,$p:= $categories }}
@@ -33,8 +33,10 @@
       {{ end }}
     </li>
   </ul>
-  <p class="mb-6">{{ .Summary }}</p>
-  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
-    {{ i18n "read_more" }}
-  </a>
+  <p class="mb-4">{{ .Summary }}</p>
+  <div class="cs-readMoreBox">
+    <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+      {{ i18n "read_more" }}
+    </a>
+  </div>
 </div>
