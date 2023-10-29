@@ -8,6 +8,7 @@ youtube_id: ""
 type: "youtube"
 speakers: ""
 sermon_types: []
+series: ""
 tags: []
 draft: false
 ---

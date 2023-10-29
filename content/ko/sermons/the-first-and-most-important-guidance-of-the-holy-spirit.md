@@ -8,6 +8,7 @@ youtube_id: "qIZzTvZqyik"
 type: "youtube"
 speakers: "byun_seung_woo"
 sermon_types: ["sunday_sermon"]
+series: "guide_by_holy_spirit"
 tags: ["holy_spirit", "truth", "guidance"]
 draft: false
 ---

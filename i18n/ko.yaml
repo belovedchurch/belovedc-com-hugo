@@ -186,3 +186,9 @@
 - id: byun_seung_woo
   translation: 변승우
 
+# 시리즈
+- id: series
+  translation: 시리즈
+
+- id: guide_by_holy_spirit
+  translation: 성령님의 인도
