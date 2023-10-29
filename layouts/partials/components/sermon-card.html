@@ -1,0 +1,40 @@
+<div class="bg-body dark:bg-darkmode-body">
+  
+  {{ $youtubeId:= .Params.youtube_id }}
+  {{ if $youtubeId }}
+  {{ $youtube_thumbnail:= (printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" .Params.youtube_id) }}
+  {{ partial "image" (dict "Src" $youtube_thumbnail "Alt" .Title "Size" "1280x720" "Context" .Page "Class" "mb-6 w-full rounded") }}
+  {{ end }}
+  
+  {{ $image:= .Params.image }}
+  {{ if $image }}
+  {{ partial "image" (dict "Src" $image "Alt" .Title "Size" "1280x720" "Context" .Page "Class" "mb-6 w-full rounded") }}
+  {{ end }}
+  <h4 class="mb-3">
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </h4>
+  <ul class="mb-4">
+    <li class="mr-4 inline-block">
+      <a href="{{ `speakers/` | relLangURL }}{{ .Params.Speakers | urlize }}/">
+        <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.speakers }}
+      </a>
+    </li>
+    <li class="mr-4 inline-block">
+      <i class="fa-regular fa-folder mr-2"></i>
+      {{ $sermon_types:= .Params.sermon_types }}
+      {{ range $i,$p:= $sermon_types }}
+      <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-1">{{ . | lower | T }}{{ if ne $i
+        (sub (len $sermon_types) 1) }}
+        {{ ", " }}
+        {{ end }}
+      </a>
+      {{ end }}
+    </li>
+  </ul>
+  <p class="mb-6">{{ .Summary }}</p>
+  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+    {{ i18n "read_more" }}
+  </a>
+</div>
