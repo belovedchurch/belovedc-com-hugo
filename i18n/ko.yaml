@@ -171,11 +171,17 @@
 - id: breaking_news
   translation: 특종
 
+# 설교 종류
+- id: sermon_types
+  translation: 설교 종류
+
 - id: sunday_sermon
   translation: 주일 설교
 
 
 # 설교자
+- id: speakers
+  translation: 설교자
 
 - id: byun_seung_woo
   translation: 변승우

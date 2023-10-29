@@ -6,8 +6,8 @@ meta_title: ""
 description: "this is meta description"
 youtube_id: "qIZzTvZqyik"
 type: "youtube"
-speaker: "byun_seung_woo"
-categories: ["sunday_sermon"]
+speakers: "byun_seung_woo"
+sermon_types: ["sunday_sermon"]
 tags: ["holy_spirit", "truth", "guidance"]
 draft: false
 ---

@@ -81,7 +81,8 @@ button = "I Accept"
 
 ######################## sidebar widgets #########################
 [widgets]
-sidebar = ["categories", "tags"]
+news_sidebar = ["categories", "tags"]
+sermons_sidebar = ['sermon_types', 'speakers']
 
 
 # google map
