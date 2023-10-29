@@ -4,8 +4,14 @@
   <section class="section">
     <div class="container">
       <div class="row gx-5 cs-listRow">
+        <!-- widget upside -->
+        <div class="cs-taglistDiv-upside xl:hidden"> <!-- 폭 조정 -->
+          <!-- widget -->
+          {{ $widget:= site.Params.widgets.news_sidebar }}
+          {{ partial "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+        </div>
         <!-- blog posts -->
-        <div class="lg:cs-col-8"> <!-- 폭 조정 -->
+        <div class="xl:cs-col-8 lg:100%"> <!-- 폭 조정 -->
           <div class="row">
             {{ $paginator:= .Paginate .RegularPages }}
             {{ range $paginator.Pages }}
@@ -17,7 +23,7 @@
           {{ partial "components/pagination.html" . }}
         </div>
         <!-- sidebar -->
-        <div class="lg:cs-col-2 cs-taglistDiv"> <!-- 폭 조정 -->
+        <div class="hidden xl:inline-block cs-taglistDiv"> <!-- 폭 조정 -->
           <!-- widget -->
           {{ $widget:= site.Params.widgets.news_sidebar }}
           {{ partial "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
