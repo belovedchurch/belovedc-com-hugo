@@ -18,7 +18,7 @@
   <ul class="mb-4">
     <li class="mr-4 inline-block">
       <a href="{{ `speakers/` | relLangURL }}{{ .Params.Speakers | urlize }}/">
-        <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.speakers }}
+        <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.speakers | lower | T }}
       </a>
     </li>
     <li class="mr-4 inline-block">
