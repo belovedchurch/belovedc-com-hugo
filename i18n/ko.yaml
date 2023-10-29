@@ -37,6 +37,8 @@
 - id: news
   translation: 소식
 
+- id: sermons
+  translation: 인터넷 방송국
 
 # 404 Page
 - id: page_not_found
@@ -161,7 +163,13 @@
 
 - id: guidance
   translation: 인도
-  
+
+- id: beloved_church
+  translation: 사랑하는교회
+
+- id: goal
+  translation: 목표
+
 
 # 카테고리
 
