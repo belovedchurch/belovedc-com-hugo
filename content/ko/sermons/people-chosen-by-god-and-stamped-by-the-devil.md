@@ -1,0 +1,13 @@
+---
+title: '하나님께서 택하시고 마귀에게 찍힌 사람들!'
+date: 2023-10-15T09:00:00+09:00
+strongly_recommend: true
+meta_title: ""
+description: "this is meta description"
+youtube_id: "iHDtPKKxPCI"
+type: "youtube"
+speakers: "byun_seung_woo"
+sermon_types: ["sunday_sermon"]
+tags: ["holy_spirit", "guidance", "beloved_church", "goal"]
+draft: false
+---
