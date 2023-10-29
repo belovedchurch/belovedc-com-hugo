@@ -19,8 +19,8 @@
         <!-- sidebar -->
         <div class="lg:cs-col-2 cs-taglistDiv"> <!-- 폭 조정 -->
           <!-- widget -->
-          {{ $widget:= site.Params.widgets.sidebar }}
-          {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+          {{ $widget:= site.Params.widgets.news_sidebar }}
+          {{ partial "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
         </div>
       </div>
     </div>
