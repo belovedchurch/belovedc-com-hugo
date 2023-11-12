@@ -31,6 +31,9 @@ defaultContentLanguage = 'ko' # https://gohugo.io/getting-started/configuration/
   category = 'categories'
   tag = 'tags'
   branch = 'branches'
+  sermon_type = 'sermon_types'
+  speaker = 'speakers'
+  series = 'series'
 
 ########################## Permalinks ############################
 [permalinks.page]

@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ partial "page-header" . }}
+<section class="section">
+    <div class="container">
+        <ul class="text-center">
+            <div class="mb-8">
+
+                <ul>
+                    {{ range .RegularPages }}
+                    <li class="inline-block">
+                        <a class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-dark {{ if (and (eq $.Page.Kind `term`) (eq $.Page.Type `tags`) (eq $.Page.Title .Page.Title)) }}
+                            active
+                          {{ end }} m-1 block rounded bg-white px-3 py-1 hover:text-white"
+                            href="{{ .Page.RelPermalink }}">
+                            {{ .Params.branch}}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+
+            </div>
+
+            {{ range first 1 .RegularPages }}
+            <section class="section-sm">
+                <div class="container">
+                    <div class="row justify-center">
+                        <div class="lg:col-10">
+                            <div class="content">
+                                {{ .Content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+{{ end }}

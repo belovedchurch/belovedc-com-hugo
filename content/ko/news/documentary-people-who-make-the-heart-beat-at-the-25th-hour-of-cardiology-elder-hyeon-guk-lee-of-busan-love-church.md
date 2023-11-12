@@ -10,5 +10,3 @@ author: ""
 tags: ["member_story"]
 draft: false
 ---
-
-<!-- image: "https://img.youtube.com/vi/OVAZYWthOuA/maxresdefault.jpg" -->

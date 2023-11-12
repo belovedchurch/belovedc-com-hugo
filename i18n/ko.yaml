@@ -37,6 +37,8 @@
 - id: news
   translation: 소식
 
+- id: sermons
+  translation: 인터넷 방송국
 
 # 404 Page
 - id: page_not_found
@@ -161,7 +163,13 @@
 
 - id: guidance
   translation: 인도
-  
+
+- id: beloved_church
+  translation: 사랑하는교회
+
+- id: goal
+  translation: 목표
+
 
 # 카테고리
 
@@ -171,12 +179,24 @@
 - id: breaking_news
   translation: 특종
 
+# 설교 종류
+- id: sermon_types
+  translation: 설교 종류
+
 - id: sunday_sermon
   translation: 주일 설교
 
 
 # 설교자
+- id: speakers
+  translation: 설교자
 
 - id: byun_seung_woo
   translation: 변승우
 
+# 시리즈
+- id: series
+  translation: 시리즈
+
+- id: guide_by_holy_spirit
+  translation: 성령님의 인도

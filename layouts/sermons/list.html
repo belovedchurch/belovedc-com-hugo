@@ -11,7 +11,7 @@
             {{ $paginator:= .Paginate (where .RegularPages "Section" "sermons") }}
             {{ range $paginator.Pages }}
               <div class="md:col-6 mb-14">
-                {{ partial "components/blog-card" . }}
+                {{ partial "components/sermon-card" . }}
               </div>
             {{ end }}
           </div>
@@ -20,8 +20,8 @@
         <!-- sidebar -->
         <div class="lg:col-4">
           <!-- widget -->
-          {{ $widget:= site.Params.widgets.sidebar }}
-          {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+          {{ $widget:= site.Params.widgets.sermons_sidebar }}
+          {{ partial "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
         </div>
       </div>
     </div>
