@@ -1,7 +1,6 @@
 [build]
 publish = "public"
-command = "yarn project-setup; yarn build"
+command = "hugo --gc --minify -b ${DEPLOY_PRIME_URL}"
 
 [build.environment]
-HUGO_VERSION = "0.118.2"
-GO_VERSION = "1.20.5"
+HUGO_VERSION = "0.121.1"

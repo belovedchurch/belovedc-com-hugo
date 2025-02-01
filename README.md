@@ -1,217 +1,83 @@
-# belovedc-com-hugo
-belovedc.com made with HUGO
+# Hextra Starter Template
 
-Theme : [HugoPlate](https://themes.gohugo.io/themes/hugoplate/)
+[![Deploy Hugo site to Pages](https://github.com/imfing/hextra-starter-template/actions/workflows/pages.yaml/badge.svg)](https://github.com/imfing/hextra-starter-template/actions/workflows/pages.yaml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6e83fd88-5ffe-4808-9689-c0f3b100bfe3/deploy-status)](https://app.netlify.com/sites/hextra-starter-template/deploys)
+![Vercel Deployment Status](https://img.shields.io/github/deployments/imfing/hextra-starter-template/production?logo=vercel&logoColor=white&label=vercel&labelColor=black&link=https%3A%2F%2Fhextra-starter-template.vercel.app%2F)
 
 
-<h1 align="center">Hugo + Tailwind CSS Starter and Boilerplate</h1>
+🐣 Minimal template for getting started with [Hextra](https://github.com/imfing/hextra)
 
-<p align="center">Hugoplate is a free starter template built with Hugo, and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time.</p>
+![hextra-template](https://github.com/imfing/hextra-starter-template/assets/5097752/c403b9a9-a76c-47a6-8466-513d772ef0b7)
 
-<p align="center">Made with ♥ by <a href="https://zeon.studio/"> Zeon Studio</a></p>
-<p align=center> If you find this project useful, please give it a ⭐ to show your support.</p>
+[🌐 Demo ↗](https://imfing.github.io/hextra-starter-template/)
 
-<h2 align="center"> <a target="_blank" href="https://hugoplate.netlify.app/" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-hugoplate-netlify-app/6lyxjw6t4r?form_factor=desktop">Page Speed (95+)🚀</a>
-</h2>
+## Quick Start
 
-<p align="center">
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.118.2" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.118.2&color=f00&logo=hugo" />
-  </a>
+Use this template to create your own repository:
 
-  <a href="https://github.com/zeon-studio/hugoplate/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zeon-studio/hugoplate" alt="license">
-  </a>
+<img src="https://docs.github.com/assets/cb-77734/mw-1440/images/help/repository/use-this-template-button.webp" width=400 />
 
-  <a href="https://github.com/zeon-studio/hugoplate">
-    <img src="https://img.shields.io/github/languages/code-size/zeon-studio/hugoplate" alt="code size">
-  </a>
+You can also quickly start developing using the following online development environment:
 
-  <a href="https://github.com/zeon-studio/hugoplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/hugoplate" alt="contributors">
-  </a>
-</p>
+- [GitHub Codespaces](https://github.com/codespaces) 
+    
+    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/imfing/hextra-starter-template)
 
-## 🎁 What's Included
+    Create a new codespace and follow the [Local Development](#local-development) to launch the preview
 
-We have included almost everything you need to start your Hugo project. Let's see what's included in this template:
+- [Gitpod](https://gitpod.io)
 
-### 📌 Key Features
+    [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/imfing/hextra-starter-template)
 
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
 
-### 📄 15+ Pre-designed Pages
+## Deployment
 
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
+### GitHub Pages
 
-### 📦 Tech Stack
+A GitHub Actions workflow is provided in [`.github/workflows/pages.yaml`](./.github/workflows/pages.yaml) to [publish to GitHub Pages](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/) for free. 
 
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [PostCSS](https://postcss.org/)
-- [PurgeCSS](https://purgecss.com/)
-- [AutoPrefixer](https://autoprefixer.github.io/)
-- [Hugo Modules](https://gohugo.io/hugo-modules/)
-- [Markdown](https://markdownguide.org/)
-- [Prettier](https://prettier.io/)
-- [Jshint](https://jshint.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
+For details, see [Publishing with a custom GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
 
----
+Note: in the settings, make sure to set the Pages deployment source to **GitHub Actions**:
 
-## 🚀 Getting Started
+<img src="https://github.com/imfing/hextra-starter-template/assets/5097752/99676430-884e-42ab-b901-f6534a0d6eee" width=600 />
 
-First you need to [clone](https://github.com/zeon-studio/hugoplate) or [download](https://github.com/zeon-studio/hugoplate/archive/refs/heads/main.zip) the template repository, and then let's get started with the following process:
+[Run the workflow manually](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) if it's not triggered automatically.
 
-### ⚙️ Prerequisites
+### Netlify
 
-To start using this template, you need to have some prerequisites installed on your machine.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/imfing/hextra-starter-template)
 
-- [Hugo Extended v0.115+](https://gohugo.io/installation/)
-- [Node v18+](https://nodejs.org/en/download/)
-- [Go v1.20+](https://go.dev/doc/install)
+### Vercel
 
-### 👉 Project Setup
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fimfing%2Fhextra-starter-template&env=HUGO_VERSION)
 
-We build this custom script to make your project setup easier. It will create a new Hugo theme folder, and clone the Hugoplate theme into it. Then move the exampleSite folder into the root directory. So that you can start your Hugo server without going into the exampleSite folder. Use the following command to setup your project.
+Override the configuration:
 
-```bash
-npm run project-setup
+<img src="https://github.com/imfing/hextra-starter-template/assets/5097752/e2e3cecd-c884-47ec-b064-14f896fee08d" width=600 />
+
+## Local Development
+
+Pre-requisites: [Hugo](https://gohugo.io/getting-started/installing/), [Go](https://golang.org/doc/install) and [Git](https://git-scm.com)
+
+```shell
+# Clone the repo
+git clone https://github.com/imfing/hextra-starter-template.git
+
+# Change directory
+cd hextra-starter-template
+
+# Start the server
+hugo mod tidy
+hugo server --logLevel debug --disableFastRender -p 1313
 ```
 
-### 👉 Install Dependencies
+### Update theme
 
-Install all the dependencies using the following command.
-
-```bash
-npm install
+```shell
+hugo mod get -u
+hugo mod tidy
 ```
 
-### 👉 Development Command
+See [Update modules](https://gohugo.io/hugo-modules/use-modules/#update-modules) for more details.
 
-Start the development server using the following command.
-
-```bash
-npm run dev
-```
-
-### 🎬 Still Confused? Watch a Quick Video
-
-https://github.com/zeon-studio/hugoplate/assets/58769763/c260c0ae-91be-42ce-b8db-aa7f11f777bd
-
----
-
-## 📝 Customization
-
-This template has been designed with a lot of customization options in mind. You can customize almost anything you want, including:
-
-### 👉 Site Config
-
-You can change the site title, base URL, language, theme, plugins, and more from the `hugo.toml` file.
-
-### 👉 Site Params
-
-You can customize all the parameters from the `config/_default/params.toml` file. This includes the logo, favicon, search, SEO metadata, and more.
-
-### 👉 Colors and Fonts
-
-You can change the colors and fonts from the `data/theme.json` file. This includes the primary color, secondary color, font family, and font size.
-
-### 👉 Social Links
-
-You can change the social links from the `data/social.json` file. Add your social links here, and they will automatically be displayed on the site.
-
----
-
-## 🛠 Advanced Usage
-
-We have added some custom scripts to make your life easier. You can use these scripts to help you with your development.
-
-### 👉 Update Modules
-
-We have added a lot of modules to this template. You can update all the modules using the following command.
-
-```bash
-npm run update-modules
-```
-
-### 👉 Remove Dark Mode
-
-If you want to remove dark mode from your project, then you have to do it manually from everywhere. So we build a custom script to do it for you. you can use the following command to remove dark mode from your project.
-
-```bash
-npm run remove-darkmode
-```
-
----
-
-## 🚀 Build And Deploy
-
-After you finish your development, you can build or deploy your project almost everywhere. Let's see the process:
-
-### 👉 Build Command
-
-To build your project locally, you can use the following command. It will purge all the unused CSS and minify all the files.
-
-```bash
-npm run build
-```
-
-### 👉 Deploy Site
-
-We have provided 5 different deploy platform configurations with this template, so you can deploy easily.
-
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
-
-And if you want to Host some other hosting platforms. then you can build your project, and you will get a `public` folder. that you can copy and paste on your hosting platform.
-
-> **Note:** You must change the `baseURL` in the `hugo.toml` file. Otherwise, your site will not work properly.
-
----
-
-## 🔒 Guide to Staying Compliant
-
-### 🐞 Reporting Issues
-
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/hugoplate/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/hugoplate/issues).
-
-### 📝 License
-
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
-
-**Code License:** Released under the [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
